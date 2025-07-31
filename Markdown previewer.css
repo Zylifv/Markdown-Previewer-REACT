@@ -1,0 +1,51 @@
+@media and only screen (max-width: 600px) {
+  #root {
+    margin: auto;
+    width: 400px;
+    transform: scale(0.8);
+  }
+}
+
+body {
+  background-color: #243642;
+}
+
+#root {
+  margin: 0;
+  text-align: center;
+  font-family: Tahoma;
+  color: #243642;
+}
+
+#editor {
+  margin: auto;
+  border: 3px solid #DDA853;
+  width: 600px;
+  height: 300px;
+}
+
+.preview {
+  margin: auto;
+  padding: 0px 0px 0px 15px;
+  width: 800px;
+  min-height: 400px;
+  text-align: left;
+  border: 5px solid #DDA853;
+  background-color: #fbfbfb;
+  color: #243642;
+}
+
+.preview > h1, .preview > h3 {
+  color: #243642;
+}
+
+img[alt="image-of-space"] {
+  width: 200px;
+  height: 300px;
+  align-items: center;
+  margin-left: 50px;
+}
+
+h1, h3 {
+  color: #FBFBFB;
+}
